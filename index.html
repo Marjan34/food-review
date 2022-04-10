@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Review</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <ul>
+          <li>Home</li>
+          <li>Contact</li>
+          <li>Feedback</li>
+        </ul>
+      </header>
+
+      <main class="main-content">
+        <h1 class="idiot">All the Reviews</h1>
+        <section class="reviews" id="reviews-array">
+          <article class="review">
+            <div class="image-icon">
+              <img
+                class="profile-image"
+                src="https://variety.com/wp-content/uploads/2017/09/gordon_ramsay.png?w=1024"
+                alt="profile-image"
+              />
+              <p><b>Gordon Ramsay</b></p>
+            </div>
+            <p>
+              The best pizza we ever had in (City)!! The pizza was so delicious
+              and with so many flavor could choose that we even visited the
+              pizza shop twice in the same day! You could just take away or
+              standing finish your pizza in the store.
+            </p>
+          </article>
+
+          <article class="review">
+            <div class="image-icon">
+              <img
+                class="profile-image"
+                src="https://variety.com/wp-content/uploads/2017/09/gordon_ramsay.png?w=1024"
+                alt="profile-image"
+              />
+              <p><b>Gordon Ramsay</b></p>
+            </div>
+            <p>
+              Burger King is an American fast food chain is located at Road 11
+              in Banani. They are famous for their Burger and have many other
+              good fast food options also in their menu. We tried their Cheesy
+              Beef Burger, Crispy Chicken Burger, BBQ chicken wings, French
+              fries, Coke and Cone ice cream. All the items were good and tasty.
+              This shop is mainly a very good place for the youngsters and
+              tourists, who are burger lovers. The staffs are good, helpful and
+              efficient with good atmosphere
+            </p>
+          </article>
+
+          <article class="review">
+            <div class="image-icon">
+              <img
+                class="profile-image"
+                src="https://variety.com/wp-content/uploads/2017/09/gordon_ramsay.png?w=1024"
+                alt="profile-image"
+              />
+              <p><b>Gordon Ramsay</b></p>
+            </div>
+            <p>
+              Pasta was very delicious. Its upper side was very crunchy and
+              there was a lot of cheese which I love more. All the items were
+              good and tasty. This shop is mainly a very good place for the
+              youngsters and tourists, who are burger lovers. The staffs are
+              good, helpful and efficient with good atmosphere
+            </p>
+          </article>
+        </section>
+        <!-- Form section begins here -->
+        <section class="form-container">
+          <form id="review-form">
+            <label class="review-label" for="review-text"
+              >Write a review here</label
+            >
+            <textarea id="review-text" placeholder="Write a review"></textarea>
+            <button type="submit">SUBMIT REVIEW</button>
+          </form>
+        </section>
+      </main>
+      <footer>Made by Marjan with <span class="red">❤</span></footer>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
